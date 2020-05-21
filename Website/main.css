@@ -1,0 +1,168 @@
+.container.signup-container {
+    margin-top: 2%;
+}
+
+.card.signup {
+    background-color: #f4f4f4;
+    text-align:center;
+    background-color: #1D4E6E;
+}
+.row.rowstyle {
+    background-color: #1D4E6E;
+}
+.cardblock {
+    display:block;
+}
+
+.colStyle {
+    padding:0px;
+    max-height: 530px;
+}
+
+.blockThree {
+    padding: 20px;
+}
+
+.qlinkBanner {
+    background: url(qlink-banner.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ulStyle {
+    color: #1D4E6E;
+    font-size: 1.3rem;
+    text-align:left;
+    left: 4.5rem;
+    display:block;
+    position:relative;
+    padding:10px 0px 0px 0px;
+}
+
+.ulStyle2 {
+    color:white;
+    font-size: 1.5rem;
+    text-align:left;
+    left: 4.5rem;
+    display:block;
+    position:relative;
+    padding:10px 0px 20px;
+}
+
+.signupHeader {
+    text-align:center;
+    color:white;
+}
+
+.signup-form {
+    max-width: 1950px;
+    margin: auto;
+    display:block;
+}
+
+img.logo-img {
+    display: block;
+    max-width: 30%;
+}
+
+img.govlogo-img {
+    display: block;
+    max-width: 40%;
+}
+
+.btnclass {
+    margin: auto;
+    display: block;
+}
+
+button.signupbtn {
+    background-color:#d64829;
+    color: white;
+    width:100%;
+    
+}
+
+button.applybtn:hover {
+    background-color:#FFB661;
+    color:white;
+}
+
+.btn-primary.focus, .applybtn:focus {
+    color: #fff;
+    background-color: #FFB661;
+}
+
+.button.applybtn:not(:disabled):not(.disabled).active, .applybtn:not(:disabled):not(.disabled):active, .show>.applybtn.dropdown-toggle {
+    color: #fff;
+    background-color: #FFB661;
+}
+
+.remberpadding {
+    padding-top:20px;   
+}
+
+.linkstyle {
+    margin:auto;
+    display:block;
+    text-align:center;
+    padding-top: 20px; 
+}
+
+.applybtn {
+    text-align:center;
+    margin:auto;
+    background-color: #F6921E;
+    color: white;
+    border: 0px;
+    font-weight:bold;
+    font-size: 1.3rem;
+}
+
+.modalbackground {
+    background-color: #1D4E6E;    
+    color: white;
+}
+
+.modalheader {
+    text-align:center !important;
+    font-size: 4rem;
+}
+
+.formAlign {
+    text-align:center !important;
+    margin:auto;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1)  {
+
+
+.ulStyle2 {
+    color:white;
+    font-size: 1.5rem;
+    text-align:left;
+    left: 15rem;
+    display:block;
+    position:relative;
+    padding:10px 0px 20px;
+}
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2){
+
+
+.ulStyle2 {
+    color:white;
+    font-size: 1.5rem;
+    text-align:left;
+    left: 9rem;
+    display:block;
+    position:relative;
+    padding:10px 0px 20px;
+}
+}
