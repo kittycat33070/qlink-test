@@ -1,3 +1,6 @@
+
+/* Main Content Styles */
+
 .container.signup-container {
     margin-top: 2%;
 }
@@ -9,6 +12,7 @@
 }
 .row.rowstyle {
     background-color: #1D4E6E;
+    border:0px;
 }
 .cardblock {
     display:block;
@@ -16,18 +20,13 @@
 
 .colStyle {
     padding:0px;
-    max-height: 530px;
 }
 
 .blockThree {
     padding: 20px;
 }
 
-.qlinkBanner {
-    background: url(qlink-banner.jpg);  
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+/* List Styles */
 
 .ulStyle {
     color: #1D4E6E;
@@ -37,27 +36,39 @@
     display:block;
     position:relative;
     padding:10px 0px 0px 0px;
+    max-width:50%
+}
+
+ul.checkStyle li:before {
+  content: '✓';
+  padding: 0px 15px;
+  color: #70B361;
+  font-weight:bold;
+  font-size:1.2em
+}
+
+ul.checkStyle {
+  list-style: none;
 }
 
 .ulStyle2 {
     color:white;
     font-size: 1.5rem;
     text-align:left;
-    left: 4.5rem;
+    left: -5%;
     display:block;
     position:relative;
     padding:10px 0px 20px;
 }
 
-.signupHeader {
-    text-align:center;
-    color:white;
-}
 
-.signup-form {
-    max-width: 1950px;
-    margin: auto;
-    display:block;
+/* Image Styles */
+
+
+.qlinkBanner {
+  background: url(qlink-banner.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img.logo-img {
@@ -68,6 +79,19 @@ img.logo-img {
 img.govlogo-img {
     display: block;
     max-width: 40%;
+}
+
+/* Button Styles */
+
+.signupHeader {
+    text-align:center;
+    color:white;
+}
+
+.signup-form {
+    max-width: 1950px;
+    margin: auto;
+    display:block;
 }
 
 .btnclass {
@@ -97,17 +121,6 @@ button.applybtn:hover {
     background-color: #FFB661;
 }
 
-.remberpadding {
-    padding-top:20px;   
-}
-
-.linkstyle {
-    margin:auto;
-    display:block;
-    text-align:center;
-    padding-top: 20px; 
-}
-
 .applybtn {
     text-align:center;
     margin:auto;
@@ -116,6 +129,14 @@ button.applybtn:hover {
     border: 0px;
     font-weight:bold;
     font-size: 1.3rem;
+}
+
+/* Modal Styles */
+
+.formStyle {
+    text-align:left;
+    margin:10px;
+    max-width:95%;
 }
 
 .modalbackground {
@@ -133,9 +154,11 @@ button.applybtn:hover {
     margin:auto;
 }
 
+/* Media Queries */
+
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+  and (min-device-width: 1058px) 
+  and (max-device-width: 1200px) 
   and (-webkit-min-device-pixel-ratio: 1)  {
 
 
@@ -143,16 +166,37 @@ button.applybtn:hover {
     color:white;
     font-size: 1.5rem;
     text-align:left;
-    left: 15rem;
+    left: 30%;
     display:block;
     position:relative;
     padding:10px 0px 20px;
+    max-width:100%;
 }
 }
 
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+  and (min-device-width: 768px) 
+  and (max-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 1)  {
+
+
+.ulStyle2 {
+    color:white;
+    font-size: 1.5rem;
+    text-align:left;
+    left: 22%;
+    display:block;
+    position:relative;
+    padding:10px 0px 20px;
+    max-width:50%;
+}
+}
+
+
+
+@media only screen 
+  and (min-device-width: 501px) 
+  and (max-device-width: 767px)
   and (-webkit-min-device-pixel-ratio: 2){
 
 
@@ -160,9 +204,39 @@ button.applybtn:hover {
     color:white;
     font-size: 1.5rem;
     text-align:left;
-    left: 9rem;
+    left: 12%;
     display:block;
     position:relative;
-    padding:10px 0px 20px;
+    padding:10px 0px 20px;    
+    max-width:75%;
+}
+}
+
+@media only screen 
+  and (min-device-width: 350px) 
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 2){
+
+
+.ulStyle {
+    color: #1D4E6E;
+    font-size: 1.3rem;
+    text-align:left;
+    left: 3rem;
+    display:block;
+    position:relative;
+    padding:10px 0px 0px 0px;
+    max-width:50%
+}
+
+.ulStyle2 {
+    color:white;
+    font-size: 1.3rem;
+    text-align:left;
+    left: -3%;
+    display:block;
+    position:relative;
+    padding:10px 0px 20px;    
+    max-width:100%;
 }
 }
